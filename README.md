@@ -90,8 +90,8 @@ The project includes detailed preprocessing steps such as:
 The WaveNet model was trained on a curated EEG dataset from Mayo Clinic and St. Anne’s University Hospital, with 186 samples split into 80% training, 10% validation, and 10% testing.
 
 - **Training Performance:**
-  - Achieved 100% accuracy, surpassing previous models (CNN, Convolutional LSTM) based on F1 score, PPV, and Sensitivity.
-  - Reached 95% accuracy in 4 epochs and 100% accuracy by the 9th epoch.
+  - Achieved 94% accuracy, surpassing previous models (CNN, Convolutional LSTM) based on F1 score, PPV, and Sensitivity.
+  
 
 - **Training Metrics:**
   - Per-step loss fluctuations indicate the model's handling of temporal EEG data intricacies, showing incremental accuracy improvements.
@@ -100,7 +100,7 @@ The WaveNet model was trained on a curated EEG dataset from Mayo Clinic and St. 
   - Consistent and steady improvement in validation loss and accuracy across epochs.
 
 - **Test Performance:**
-  - Achieved 100% accuracy on a large test dataset of 209,232 samples.
+  - Achieved 94% accuracy on a large test dataset of 209,232 samples.
 
 ### Summary
 
